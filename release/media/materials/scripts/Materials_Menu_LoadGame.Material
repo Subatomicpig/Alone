@@ -1,0 +1,71 @@
+material LoadGameControls
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_loadgame_controls.png
+			}
+		}
+	}
+}
+
+material LoadGameOne
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_menu_loadgame_LoadGameOne.png
+            }
+        }
+    }
+}
+
+material LoadGameTwo
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_menu_loadgame_LoadGameTwo.png
+            }
+        }
+    }
+}
+
+material LoadGameThree
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_menu_loadgame_LoadGameThree.png
+            }
+        }
+    }
+}

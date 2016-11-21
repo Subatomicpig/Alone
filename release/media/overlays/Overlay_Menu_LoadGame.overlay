@@ -1,0 +1,59 @@
+Overlay/LoadGameControls
+{
+	zorder 400
+	container Panel(LoadGameControls/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material LoadGameControls
+	}
+}
+
+Overlay/LoadGameOne
+{
+    zorder 200
+    container Panel(LoadGameOne/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 1.0
+	height 1.0
+
+        material LoadGameOne
+    }
+}
+
+Overlay/LoadGameTwo
+{
+    zorder 200
+    container Panel(LoadGameTwo/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 1.0
+	height 1.0
+
+        material LoadGameTwo
+    }
+}
+
+Overlay/LoadGameThree
+{
+    zorder 200
+    container Panel(LoadGameThree/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 1.0
+	height 1.0
+
+        material LoadGameThree
+    }
+}

@@ -1,0 +1,376 @@
+Overlay/MissionsUI
+{
+    zorder 400
+    container Panel(MissionsUI/Background)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material MissionsUI
+    }
+}
+
+Overlay/StatusUI
+{
+    zorder 400
+    container Panel(StatusUI/Background)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material StatusUI
+    }
+}
+
+Overlay/InventoryUI
+{
+    zorder 400
+    container Panel(InventoryUI/Background)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material InventoryUI
+    }
+}
+
+Overlay/MapUI
+{
+    zorder 400
+    container Panel(MapUI/Background)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material MapUI
+    }
+}
+
+Overlay/GameOptionsUI
+{
+    zorder 400
+    container Panel(GameOptionsUI/Background)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material GameOptionsUI
+    }
+}
+
+Overlay/PauseSelection
+{
+    zorder 500
+    container Panel(PauseSelection/Background)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 0.1
+        height 0.1
+
+        material PauseSelection
+    }
+}
+
+Overlay/ArenaMap
+{
+    zorder 500
+    container Panel(ArenaMap/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material ArenaMap
+    }
+}
+
+Overlay/CafeteriaMap
+{
+    zorder 500
+    container Panel(CafeteriaMap/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material CafeteriaMap
+    }
+}
+
+Overlay/CellsMap
+{
+    zorder 500
+    container Panel(CellsMap/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material CellsMap
+    }
+}
+
+Overlay/CourtyardMap
+{
+    zorder 500
+    container Panel(CourtyardMap/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material CourtyardMap
+    }
+}
+
+
+Overlay/Cash
+{
+    zorder 500
+    container Panel(Cash/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material Cash
+    }
+}
+
+Overlay/CellBlockKey
+{
+    zorder 500
+    container Panel(CellBlockKey/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material CellBlockKey
+    }
+}
+
+Overlay/CigaretteBox
+{
+    zorder 500
+    container Panel(CigaretteBox/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material CigaretteBox
+    }
+}
+
+Overlay/EscapePlans
+{
+    zorder 500
+    container Panel(EscapePlans/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material EscapePlans
+    }
+}
+
+Overlay/OfficeKey
+{
+    zorder 500
+    container Panel(OfficeKey/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material OfficeKey
+    }
+}
+
+
+Overlay/PainKillers
+{
+    zorder 500
+    container Panel(PainKillers/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material PainKillers
+    }
+}
+
+Overlay/Soap
+{
+    zorder 500
+    container Panel(Soap/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material Soap
+    }
+}
+
+Overlay/SoapMould
+{
+    zorder 500
+    container Panel(SoapMould/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material SoapMould
+    }
+}
+
+Overlay/SteroidSyringe
+{
+    zorder 500
+    container Panel(SteroidSyringe/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material SteroidSyringe
+    }
+}
+
+Overlay/Cockroach
+{
+    zorder 500
+    container Panel(Cockroach/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material Cockroach
+    }
+}
+
+Overlay/Rat
+{
+    zorder 500
+    container Panel(Rat/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material Rat
+    }
+}
+
+Overlay/Pendant
+{
+    zorder 500
+    container Panel(Pendant/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material Pendant
+    }
+}
+
+Overlay/Earring
+{
+    zorder 500
+    container Panel(Earring/Foreground)
+    {
+        metrics_mode relative
+        top 0.0
+        left 0.0
+        width 1.0
+        height 1.0
+
+        material Earring
+    }
+}
+
+Overlay/PauseMenuExit
+{
+	zorder 500
+	container Panel(PauseMenuExit/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material PauseMenuExit
+	}
+}
+
+Overlay/PauseMenuSave
+{
+	zorder 500
+	container Panel(PauseMenuSave/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material PauseMenuSave
+	}
+}

@@ -1,0 +1,136 @@
+Overlay/AButton
+{
+	zorder 600
+	container Panel(AButton/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material AButton
+	}
+}
+
+Overlay/BButton
+{
+	zorder 600
+	container Panel(BButton/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material BButton
+	}
+}
+
+Overlay/XButton
+{
+	zorder 600
+	container Panel(XButton/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material XButton
+	}
+}
+
+Overlay/YButton
+{
+	zorder 600
+	container Panel(YButton/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material YButton
+	}
+}
+
+Overlay/Stand
+{
+	zorder 500
+	container Panel(Stand/Background)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material Stand
+	}
+}
+
+Overlay/Crouch
+{
+	zorder 500
+	container Panel(Crouch/Background)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material Crouch
+	}
+}
+
+Overlay/FaceButtons
+{
+	zorder 500
+	container Panel(FaceButtons/Background)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material FaceButtons
+	}
+}
+
+Overlay/TextBox
+{
+	zorder 0
+	container Panel(TextBox/Background)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+		
+		material TextBox
+	}
+}
+
+Overlay/KnockOut
+{
+	zorder 800
+	container Panel(knockOut/Background)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+		
+		material KnockOut
+		
+	}
+
+}

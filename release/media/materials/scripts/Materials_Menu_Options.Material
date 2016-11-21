@@ -1,0 +1,144 @@
+material OptionsUIState
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_options_OptionsUI.png
+			}
+		}
+	}
+}
+
+material OptionsControls
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_options_controls.png
+			}
+		}
+	}
+}
+
+material OptionsOff
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_options_OptionsOff.png
+			}
+		}
+	}
+}
+
+material OptionsOn
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_options_OptionsOn.png
+			}
+		}
+	}
+}
+
+material OptionsText
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_options_OptionsText.png
+			}
+		}
+	}
+}
+
+material OptionsSelector
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_options_OptionsSelector.png
+			}
+		}
+	}
+}
+
+material Keyboard
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_options_Keyboard.png
+			}
+		}
+	}
+}
+
+material Gamepad
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_options_Gamepad.png
+			}
+		}
+	}
+}
+

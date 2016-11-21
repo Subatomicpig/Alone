@@ -1,0 +1,949 @@
+
+material VGD_Alone_lvl_tex_courtyard_bamboo
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_bamboo_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_bench_legs
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_metal.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_bench_press
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_Prop_tex_Bench_Press_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_benches
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_bench_wood.dds -1
+				scale 0.333333 0.333333
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_camera
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_prop_tex_camera_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture VGD_Alone_prop_tex_camera_selfillum.dds -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_door
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_courtyard_door.dds -1
+				scroll 0.060 0
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_door_handles
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_courtyard_door_handle.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_fence
+{
+	technique Default
+	{
+		pass Main
+		{
+			alpha_rejection greater 128
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			scene_blend alpha_blend
+			cull_hardware none
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_arena_cage_diffuse.png -1
+				scale 0.333333 0.333333
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_fence_posts
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_metalrusted_diffuse.dds -1
+				scale 0.0333333 0.0333333
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_grass
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_grass_diffuse.dds -1
+				scale 0.025 0.025
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_grass_plane
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_grass_plane.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_handles
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_metalrusted_diffuse.dds -1
+				scale 0.02 0.02
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_hotel_roof
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture vgd_alone_lvl_tex_courtyard_roof_tiles_diffuse.dds -1
+				scale 0.2 0.2
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_hotel_wall
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_wall_diffuse.dds -1
+				scale 2 2
+			}
+			
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_jump_rope
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_Prop_tex_Jumprope.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_lantern
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_lantern.dds -1
+				scale 0.333333 0.333333
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_path
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			scene_blend alpha_blend
+			depth_write off
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_path.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_path_junction
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			scene_blend alpha_blend
+			depth_write off
+			
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_path_junction.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_pillar_base
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_concrete_diffuse.dds -1
+				scale 0.2 0.2
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_pool
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_pool.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_pool_fence
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture vgd_alone_lvl_tex_courtyard_wood_diffuse.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+
+			
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_pool_fence_mesh
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			scene_blend alpha_blend
+			depth_write off
+			cull_hardware none
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_poolfence_diffuse.dds -1
+				scale 0.2 0.2
+			}
+
+			
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_pool_mat
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_gym_mat.dds -1
+				scale 0.5 0.5
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_pool_walk
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_concrete_diffuse.dds -1
+				scale 0.04 0.04
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_preacher_curl
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_Prop_tex_preacherBench_diffuse.dds -1
+			}
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_rock
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_rock_diffuse.dds -1
+				scale 0.125 0.125
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_roof
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_roof_tiles_diffuse.dds -1
+				scale 0.2 0.2
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_tree_bark
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			cull_hardware none
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture vgd_alone_lvl_tex_courtyard_bark_diffuse.dds -1
+				scale 0.05 0.05
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_tree_needles
+{
+	technique Default
+	{
+		pass Main
+		{
+			alpha_rejection greater 128
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			scene_blend alpha_blend
+			cull_hardware none
+			
+
+
+			texture_unit
+			{
+				texture_alias opacity
+				texture VGD_Alone_lvl_tex_courtyard_pine_needles_diffuse.dds -1
+			}
+
+			//texture_unit
+			//{
+			//	texture_alias self_illumination
+			//	texture courtyard_light_map.png -1
+			//	tex_coord_set 1
+			//}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_wall
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+			alpha_rejection greater 128
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_concrete_diffuse.png -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_weights
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_Prop_tex_Weights.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_courtyard_wood
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+		
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_courtyard_wood_diffuse.dds -1
+				scale 0.142857 0.142857
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture courtyard_light_map.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material Examples/CloudySky
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			
+
+			texture_unit
+			{
+				texture clouds.jpg
+				scroll_anim 0.15 0
+			}
+		}
+	}
+}

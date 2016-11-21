@@ -1,0 +1,179 @@
+Overlay/OptionsUIState
+{
+	zorder 700
+	container Panel(OptionsUIState/Background)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material OptionsUIState
+	}
+}
+
+Overlay/Gamepad
+{
+	zorder 500
+	container Panel(Gamepad/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.10
+		height 0.05
+
+		material Gamepad
+	}
+}
+
+Overlay/Keyboard
+{
+	zorder 500
+	container Panel(Keyboard/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.10
+		height 0.05
+
+		material Keyboard
+	}
+}
+
+Overlay/InvertOn
+{
+	zorder 500
+	container Panel(InvertOn/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.05
+		height 0.05
+
+		material OptionsOn
+	}
+}
+
+Overlay/InvertOff
+{
+	zorder 500
+	container Panel(InvertOff/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.05
+		height 0.05
+
+		material OptionsOff
+	}
+}
+
+Overlay/MusicOn
+{
+	zorder 500
+	container Panel(MusicOn/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.05
+		height 0.05
+
+		material OptionsOn
+	}
+}
+
+Overlay/MusicOff
+{
+	zorder 500
+	container Panel(MusicOff/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.05
+		height 0.05
+
+		material OptionsOff
+	}
+}
+
+Overlay/SFXOn
+{
+	zorder 500
+	container Panel(SFXOn/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.05
+		height 0.05
+
+		material OptionsOn
+	}
+}
+
+Overlay/SFXOff
+{
+	zorder 500
+	container Panel(SFXOff/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.05
+		height 0.05
+
+		material OptionsOff
+	}
+}
+
+Overlay/OptionsControls
+{
+	zorder 400
+	container Panel(OptionsControls/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material OptionsControls
+	}
+}
+
+Overlay/OptionsSelector
+{
+	zorder 400
+	container Panel(OptionsSelector/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 0.15
+
+		material OptionsSelector
+	}
+}
+
+Overlay/OptionsText
+{
+	zorder 600
+	container Panel(OptionsText/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.15
+		height 0.35
+
+		material OptionsText
+	}
+}

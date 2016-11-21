@@ -1,0 +1,143 @@
+material AButton
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_hud_abutton.png
+			}
+		}
+	}
+}
+
+material BButton
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_hud_bbutton.png
+			}
+		}
+	}
+}
+
+material XButton
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_hud_xbutton.png
+			}
+		}
+	}
+}
+
+material YButton
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_hud_ybutton.png
+			}
+		}
+	}
+}
+
+material Stand
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_hud_posstand.png
+			}
+		}
+	}
+}
+
+material Crouch
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_hud_poscrouch.png
+			}
+		}
+	}
+}
+
+material FaceButtons
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_hud_facebuttons.png
+			}
+		}
+	}
+}
+
+material TextBox
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_hud_TextBox.png
+			}
+		}
+	}
+}

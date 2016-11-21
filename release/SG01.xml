@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<SaveGame>
+    <Info Exist="1" Name="Asd" Skin="0" Shirt="0" Hair="0" />
+    <Stat Level="1" UpperBody="5" LowerBody="5" Health="5" Grapple="5" />
+    <Inventory Cigarettes="0" PainKillers="0" Money="0" Syringe="0" Soap="0" SoapMold="0" LinMasKey="0" CellKey="0" CellKeyCopy="0" GoldCockroach="0" Pendant="0" Earing="0" Cockroach="0" Rat="0" />
+    <QuestTracker linMasBugInTheSystemQuestCompleted="0" linMasTheRatScuttleQuestCompleted="0" linMaswhoIsEscapingQuestCompleted="0" linMastrainQuestCompleted="0" linMasMoreBugsInTheSystemQuestCompleted="0" linMasPickAFactionQuestCompleted="1" linMasFinalQuestQuestCompleted="0" linMasTrainingQuestCompleted="0" jollytalkToTheSwordQuestCompleted="0" jollyKeyToThePlanQuestCompleted="0" jollyTwoPendantsQuestCompleted="0" jollyKnockEmOutQuestCompleted="0" geminitalkToTheSwordQuestCompleted="0" gemniThePrideOfJollyQuestCompleted="0" geminiKnockEmOutQuestCompleted="0" geminiKeyToThePlanQuestCompleted="0" johnny666TrainingDoneQuestCompleted="0" johnny66680RepQuestCompleted="0" johnny666CheatALittleQuestCompleted="0" />
+    <CurrentQuest linMasFinalQuest="0" linMasTraining="0" johnnny666Rep="0" johnny666CheatALittle="0" johnny66680Rep="0" johnny666TrainingDone="0" geminiThePrideOfJolly="0" geminiKnockEmOut="0" geminiKeyToThePlan="0" geminiTalkToTheSword="0" jollyTwoPendants="0" jollyKnockEmOut="0" jollyKeyToThePlan="0" santosoKeyToThePlan="0" santosoTalkToTheSword="0" jollyTalkToTheSword="0" linMaTrain="0" linMasWhoIsEscaping="0" linMasTheRatScuttle="0" linMasMoreBugsInTheSystem="0" linMasBugInTheSystem="0" linMasPickAFaction="1" />
+    <Other emptyCellRightOfPlayerTaken="0" dannyBoySteroidsTaken="0" santosoPainKillerTaken="0" linMasMoneyTaken="0" linMasSoapTaken="0" factionedPickedJolly="0" factionedPickedGemini="0" />
+</SaveGame>

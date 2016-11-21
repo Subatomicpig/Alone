@@ -1,0 +1,143 @@
+material TrainingState
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_workoutoverlay.png
+            }
+        }
+    }
+}
+
+material TrainingSelect
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_Selector.png
+			}
+		}
+	}
+}
+
+material TrainingControls
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture TrainingControls.png
+			}
+		}
+	}
+}
+
+material TrainingText
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture TrainingText.png
+			}
+		}
+	}
+}
+
+material BenchPress
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture Syringe.png
+            }
+        }
+    }
+}
+
+material Squats
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture Painkillers.png
+            }
+        }
+    }
+}
+
+material Crunches
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture Syringe.png
+            }
+        }
+    }
+}
+
+material Curls
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture Painkillers.png
+            }
+        }
+    }
+}

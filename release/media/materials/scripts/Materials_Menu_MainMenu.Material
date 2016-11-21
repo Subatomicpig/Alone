@@ -1,0 +1,91 @@
+material MainMenuUIState
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_menu_mainmenu_MainMenuUI.png
+            }
+        }
+    }
+}
+
+material MainMenuText
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_mainmenu_MainMenuText.png
+			}
+		}
+	}
+}
+
+material MainMenuSelect
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_mainmenu_MainMenuSelect.png
+			}
+		}
+	}
+}
+
+material MainMenuControls
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				
+
+				texture VGD_Alone_gui_menu_mainmenu_CONTROLS.png
+			}
+		}
+	}
+}
+
+material MainMenuExit
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_mainmenuEXIT_CONFORM.png
+			}
+		}
+	}
+}

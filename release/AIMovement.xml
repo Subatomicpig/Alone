@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<Options>
+    <Movement Dir1="1" Duration1="100" Dir2="3" Duration2="10" Dir3="1" Duration3="4" Dir4="4" Duration4="3"/>
+</Options>

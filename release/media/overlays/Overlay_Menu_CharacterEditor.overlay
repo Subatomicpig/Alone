@@ -1,0 +1,89 @@
+Overlay/CharacterEditorClipboard
+{
+	zorder 300
+	container Panel(CharacterEditorClipboard/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material CharacterEditorClipboard
+	}
+}
+
+Overlay/CharacterEditorHairSelector
+{
+	zorder 600
+	container Panel(CharacterEditorHairSelector/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.08
+		height 0.05
+
+		material CharacterEditorSelector
+	}
+}
+
+Overlay/CharacterEditorHilighter
+{
+	zorder 400
+	container Panel(CharacterEditorHilighter/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.08 
+		height 0.02
+
+		material CharacterEditorHilighter
+	}
+}
+
+Overlay/CharacterEditorShirtSelector
+{
+	zorder 600
+	container Panel(CharacterEditorShirtSelector/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.08
+		height 0.05
+
+		material CharacterEditorSelector
+	}
+}
+
+Overlay/CharacterEditorSkinSelector
+{
+	zorder 600
+	container Panel(CharacterEditorSkinSelector/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.08
+		height 0.05
+
+		material CharacterEditorSelector
+	}
+}
+
+Overlay/CharacterEditorText
+{
+	zorder 500
+	container Panel(CharacterEditorText/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.40
+		height 0.25
+
+		material CharacterEditorText
+	}
+}

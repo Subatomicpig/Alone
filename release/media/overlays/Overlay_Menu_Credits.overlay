@@ -1,0 +1,14 @@
+Overlay/CreditsUIState
+{
+	zorder 500
+	container Panel(CreditsUIState/Background)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 3.0
+
+		material CreditsUIState
+	}
+}

@@ -1,0 +1,406 @@
+
+material VGD_Alone_prop_tex_light_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_prop_tex_light_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_brick_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.145098 0.92549 0.2 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_brick_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_carpethall_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.823529 0.215686 0.0980392 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_carpethall_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_concrete_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0 0.741176 0.807843 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_concrete_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_concreterafters_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 1 0.0588235 0.0588235 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_concreterafters_diffuse.png -1
+				scale 3.33333 1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_floortiles_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.466667 0.494118 0.156863 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_floortiles_diffuse.dds -1
+				scale 0.5 0.5
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_wallpapercells_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.560784 0.529412 0.301961 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_wallpapercells_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_wallpaperwashroom_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.411765 0.639216 0.4 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_wallpaperwashroom_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_wooddark_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.0627451 0.0196078 0.878431 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_wooddark_diffuse.dds -1
+				rotate 90
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_lvl_tex_cells_woodplanks_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.360784 0.360784 0.360784 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_woodplanks_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_prop_tex_bedsingle_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_prop_tex_bedsingle_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_prop_tex_sinkcell_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_prop_tex_sinkcell_diffuse.dds -1
+			}
+			
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_prop_tex_toilet_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.564706 0.294118 0.27451 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_prop_tex_dirtytoilet_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material vgd_alone_prop_tex_tproll_playercell
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_prop_tex_toiletpaperroll_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture vgd_alone_lvl_playercell_lightmap.png -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}

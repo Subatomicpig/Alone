@@ -1,0 +1,431 @@
+
+material VGD_Alone_lvl_tex_cafe_ceiling
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cafeteria_concreteceiling_diffuse.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_door
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0 1 0.0705882 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cafe_door_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_floor
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 1 0 0.847059 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cafeteria_concretefloor_diffuse.dds -1
+				scale 0.02 0.02
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_lights
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0 0.298039 0.223529 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_prop_tex_lightHanging_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_plates
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cafeteria_plates_diffuse.dds -1
+				scale 0.0666667 0.0666667
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_spork
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_metal_diffuse.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_tables
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_Prop_tex_table_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_tray_ramp
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.964706 1 0 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_metal_diffuse.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_trayrack
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_concrete_diffuse.png -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_trays
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.588 0.588 0.588 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cafeteria_tray_diffuse.dds -1
+				scale 0.02 0.02
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_vents
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0 0.917647 1 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_metal_diffuse.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_wall
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.0705882 0 1 1
+			specular 0.9 0.9 0.9 1 0.1
+
+		
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cafeteria_concretewall_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_window
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 1 0 0 1
+			specular 0.9 0.9 0.9 1 0.1
+
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cafeteria_kitchen_window_diffuse.dds -1
+				scale 0.2 0.2
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_wiretubes
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.239216 0.145098 0 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_lvl_tex_cells_metal_diffuse.dds -1
+				scale 0.1 0.1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}
+
+material VGD_Alone_lvl_tex_cafe_food
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0.239216 0.145098 0 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_Prop_tex_food_diffuse.dds -1
+			}
+
+			texture_unit
+			{
+				texture_alias self_illumination
+				texture cafeteria_light_map.tga -1
+				tex_coord_set 1
+			}
+		}
+
+	}
+
+}

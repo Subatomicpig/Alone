@@ -1,0 +1,33 @@
+
+material vgd_alone_prop_tex_camera
+{
+	technique Default
+	{
+		pass Main
+		{
+			ambient 0 0 0 1
+			specular 0.9 0.9 0.9 1 0.1
+
+			vertex_program_ref BlinnVP
+			{
+			}
+
+			fragment_program_ref Blinn_DiffuseMap_FP
+			{
+				param_named ambientColor float4 0 0 0 1
+				param_named diffuseColor float4 0 0 0 1
+				param_named glossLevel float4 10 0 0 0
+				param_named specularColor float4 0.9 0.9 0.9 1
+				param_named specularLevel float4 0 0 0 0
+			}
+
+			texture_unit
+			{
+				texture_alias diffuse
+				texture VGD_Alone_prop_tex_camera_diffuse.dds -1
+			}
+		}
+
+	}
+
+}

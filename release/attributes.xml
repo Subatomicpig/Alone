@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<Attributes>
+    <Stat Level="1" UpperBody="5" LowerBody="5" Health="5" Grapple="5" Speed="12" />
+</Attributes>

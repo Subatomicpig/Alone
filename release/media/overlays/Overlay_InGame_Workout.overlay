@@ -1,0 +1,119 @@
+Overlay/TrainingState
+{
+    zorder 500
+    container Panel(TrainingState/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 1.0
+	height 1.0
+
+        material TrainingState
+    }
+}
+
+Overlay/TrainingText
+{
+	zorder 600
+	container Panel(TrainingText/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material TrainingText
+	}
+}
+
+Overlay/TrainingSelect
+{
+	zorder 550
+	container Panel(TrainingSelect/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.09
+		height 0.06
+
+		material TrainingSelect
+	}
+}
+
+Overlay/TrainingControls
+{
+	zorder 400
+	container Panel(TrainingControls/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 0.15
+
+		material TrainingControls
+	}
+}
+
+Overlay/Squats
+{
+    zorder 600
+    container Panel(Squats/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 0.25
+	height 0.35
+
+        material Squats
+    }
+}
+
+Overlay/Curls
+{
+    zorder 600
+    container Panel(Curls/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 0.25
+	height 0.35
+
+        material Curls
+    }
+}
+
+Overlay/Crunches
+{
+    zorder 600
+    container Panel(Crunches/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 0.25
+	height 0.35
+
+        material Crunches
+    }
+}
+
+Overlay/BenchPress
+{
+    zorder 600
+    container Panel(BenchPress/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 0.25
+	height 0.35
+
+        material BenchPress
+    }
+}

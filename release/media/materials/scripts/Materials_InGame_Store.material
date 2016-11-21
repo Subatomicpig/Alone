@@ -1,0 +1,71 @@
+material StoreState
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_storeoverlay.png
+            }
+        }
+    }
+}
+
+material StoreSelect
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_storeoverlayHIGHLIGHT.png
+			}
+		}
+	}
+}
+
+material Painkillers
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_storeoverlay_Painkillers.png
+            }
+        }
+    }
+}
+
+material Syringe
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_storeoverlay_Steroidsyringe.png
+            }
+        }
+    }
+}

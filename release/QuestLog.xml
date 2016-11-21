@@ -1,0 +1,326 @@
+<?xml version="1.0" ?>
+<QuestLog>
+	<dannyBoyDialogue dannyBoyInitialDialogue01=" Piss off" />
+	<michealDialogue michealsInitialDialogue01="		
+	
+						HEY YOU!! GO FUCK YOURSELF!!" />
+	<LinMaFinalQuest LinMasInitialDialogue01="You ready to fight? Yes? Good you fight tommorow morning." LinMasFailure="Oooh, you kind of look under the weather... go rest up train up and stop crying. 
+Go now and don't show yourself until you know you can take a punch."/>
+	//lin mas final quests//
+	<LinMaTrainCompleted LinMasInitialDialogue01="Nice, you are looking as if you can handle yourslef in the fight for at least say 
+ten-twenty seconds. That's how long you should expect to last if you keep up with your attitude."/>
+	<LinMaTrainNotCompleted LinMasInitialDialogue01="You don't expect to hit this guy with that scrawny body of yours. Follow my advice. 
+Get tough." LinMasInitialDialogue02="People pay good money to watch these fights and we make sure these fights are entertaining"/>
+	//johnny 666 quests//
+	<Johnny666TrainingDone Johnny666InitialDialogue01="
+	
+How's the practice coming along? Don't forget the gym is in the 
+courtyard. Hope you are working out. You need strength and tactic 
+to win everything."/>
+	<Johnny66680Rep Johnny666InitialDialogue01="
+
+I'm hearing good things about you from a few friends. I think it's 
+time I show you some advanced moves" Johnny666InitialDialogue02="
+
+Now these moves are time consuming but man they will hurt! 
+Be smart with them, Now go. You should be fine for now" />
+	<SantosoBuyingSteroids SantosoInitialDialogue01="
+	
+ 
+ Interested in purchasing anything?"/>
+	<Johnny666CheatALittle Johnny666InitialDialogue01="
+
+Go get me a steroid syringe if you want me to treat you less like 
+the pathetic little pussy" Johnny666Failure="
+
+You're getting on my nerves. Get me the steroids or get lost." Johnny666Completed="
+
+Hmmm.. So you got me steroids. Now what you want me to do? 
+Look all I can do is teach you some moves. Watch" Johnny666Completed02="
+
+These will help you out if you are going against a fool like 
+yourself. I could show you more but I don't see anyone trusting 
+you much."/>
+	<Johnny666Rep Johnny666InitialDialogue01="
+	
+	So you are the new fist everyone's been going on about. 
+	What? Look I don't like people staring at my tattoos, alright?" Johnny666InitialDialogue02="
+
+These are each one I put out of thier misery in this world... you 
+might be one of em if you don't stop staring."/>
+	<Johnny666NoRep Johnny666InitialDialogue01="Don't fuck with me, I got work..."/>
+	//faction quests of gemini twins//
+	<JollyGeminiTwinsFaction JollyInitialDialogue01="Get the fuck away from me you peice of shit, before I tear you a new one..."/>
+	<GeminiQuestsCompleted GeminiTwinsinitialDialogue01="
+ 
+ Hope your stay is going as comfortable as ours, 
+ if not.... it soon will." />
+	<GeminiThePrideAndJoyOfJolly GeminiTwinsInitialDialogue01="
+ 
+ Now we need you to do this final task to show where your 
+ loyalties lie. Sneak into his cell and steal his earring" GeminiTwinsInitialDialogue02="
+ It is said to be stolen, or rather ripped off from the 
+ ear of a pop star who offended Jolly, back from where he 
+ comes. He believes it's to be his prized possession." GeminiTwinsInitialDialogue03="
+ 
+ Take away his pride" GeminiTwinsFailure="We need you to finish this until we can finally believe your friendship to us. 
+Now go and finish what is required of you." GeminiTwinsCompleted="Finally, you have proven yourself. We both are finally impressed. 
+Now if you need any assistance, a simple request will be fine for us."/>
+	<GeminiKnockEmOut GeminiTwinsInitialDialogue01="
+ 
+ You might have seem Jolly around this prison. An unintelligent
+ brute, not even worth the dirt we walk in. He has been trying to 
+ make our lives difficult since he has been admitted into the 
+ empire" GeminiTwinsInitialDialogue02="
+ 
+ We have developed opposing opinions but have tried to be civil.
+ However, it's time for a change." GeminiTwinsInitialDialogue03="
+ 
+ If you could show him that we possess some physical merit, it
+ might set him straight. We would like you to cause him some 
+ pain. A knock out would be preferable." GeminiTwinsInitialDialogue04="
+ 
+ Go speak with Johnny 666. He is known in the Empire to be quite
+ the fighter. He will train you." GeminiTwinsFailure="
+We understand your hesitations, but now is not the time to allow 
+yourself to think. It's time to act." GeminiTwinsCompleted="Hope you didn't go through too much pain. This should compensate your efforts"/>
+	<GeminiKeyToThePlan GeminiTwinsCompleted="
+ 
+ 
+ Good. We have another task of you."/>
+	<GeminiTalkToTheSword02 GeminiTwinsInitialDialogue01="
+ 
+ Has Santoso informed you of the task? You must get this done.
+ Go to your cell and wait for night fall. We will come meet you.
+ Don't bother us until then." GeminiTwinsInitialDialogue02="
+ 
+ You will need this key to get into the Office. It's fragile
+ find soap in the Office bathroom. It's Night now Lin Ma won't
+ so you have one try opening the door. You can most likely 
+ be in his office don't come back till your task is completed" GeminiTwinsFailure="Your display
+ of incompetence does not impress us." GeminiTwinsFailure02="If you
+ are not willing to complete the task we might be lead to believe
+ that you fear Lin Ma" GeminiTwinsCompleted="
+ We are impressed but frankly you should not waste our time 
+ without following through your task. Go speak with Santoso."/>
+	<GeminiTalkToTheSword GeminiTwinsInitialDialogue01="
+ 
+ The Skeleton key is the master key that Lin Ma keeps in his 
+ Office. We would like to acquire a copy. Since he will notice it 
+ gone, we need you to make a copy" GeminiTwinsInitialDialogue02="
+ 
+Go back to the Cells and find Santoso. He'll tell you what you 
+need to make a copy. Be careful with Santoso. He seems a little 
+strange to us but he is a supplier of many goods and services."/>
+	<AfterFactionAllignedGeminiTwins GeminiTwinsInitialDialogue01="
+ 
+ Ok,look. The smokes are hard to come by and we need them 
+ to pay people off.We'll help you out if you are willing 
+ to sell those for cheap. Deal? Deal." GeminiTwinsInitialDialogue02="
+ 
+ Now you will need this note book. Helps keep track of 
+ life in the Empire.."/>
+	//if you are factioned with jolly//
+	<GeminiTwinsJollyFactioned GeminiTwinsDialogue01="Leave us be, we don't want to even smell the likes of you..."/>
+	//factioned with jolly quests//
+	<JollysQuestsCompleted JollyInitialDialogue01="Hey! Hope you doin' good in the prison. Remember you will be fine... just stick with me, 
+and your time here should be painless..." />
+	<JollyTwoPendants JollyInitialDialogue01="I want you to use the key you got and sneak into the Gemini's room. They have this... 
+necklace, pendant...." JollyInitialDialogue02="something like that. They are so proud of it. Get it for me, and you can finally be trusted 
+enough by me." JollyFailure="Hey man, you know what if you want me to be able to trust you, you need to go full out on 
+your word or else just go back to your...hole" JollyFailure02="Look I got angry, I know you can do it... go do it..."/>
+	<JollyKnockEmOut JollyInitialDialogue01="
+ You know Dougy Stalls? One o them Gemini fucks.How do 
+ you feel about roughing him up? Now look its not gonna 
+ be easy.He is a tough little bastard.Go talk to 
+ Johnny 666 if you havn't yet." JollyInitialDialogue02="
+ 
+ Johnnys a touch son of a bitch. He'll teach ya some moves
+ you know. And go to the gym, do some weights. Trust me you 
+ will be doin' yourself a favour."
+JollyFailure="Look its nice you agreed to do this you know but fuck man, I'm 
+not gonna wait around for you all day! Get to it" JollyCompleted="Nice, you actually did it... I didnt't think you would. Look, here's something for you. 
+Now for the final blow." />
+	<JollyKeyToThePlan02 JollyInitialDialogue01="
+ 
+ There you go, you got my key? Good. Now look, you are 
+ showing some potential" />
+	<SantosoKeyToThePlan2 SantosoInitialDialogue01="
+ 
+ So you wanna make it now? Cool you got my five hundred 
+ bucks? Huh? Oh ya ya...the discount. Gimme the ten bucks" SantosoInitialDialogue02="
+ 
+ Here you go, the key. You want the soap? you need the 
+ soap...you know all that sweat and grime and all.." SantosoInitialDialogue03="
+ 
+ ...anyways, go back to your boss.And don't forget who... 
+ had the best shit on this side of the prison. I can make 
+ shit happen."/>
+	<JollyKeyToThePlan JollyInitialDialogue01="
+How did it go with Santoso?
+
+Hm, so you need the soaps huh? Hope he gave you a discount. 
+Go to your cell and wait for nightfall I'll figure something out" JollyInitialDialogue02="
+ 
+ Here is my key to get into Lin Mas room. Better be sneaky about 
+ this. Don't get caught coz I don't wanna lose my key.We cool? 
+ Good, now go.." JollyFailure="
+ 
+ So you get it? No? What you a fuckin' pussy? or you turnin' into 
+ Lin's bitch? Look no ones gonna help you if you gonna be such 
+ a pussy. Get the damn key already." JollyCompleted="
+ 
+ You gots some balls! You see Santoso? No? Then what the fuck 
+ you doin' here? Go make the copy! That soaps not gonna open 
+ doors for you"/>
+	<SantosoKeyToThePlan SantosoInitialDialogue01="
+ 
+ I am getting to old for this! Back in my days all I did 
+ was blow up doors. All this sneaking is not my style." SantosoInitialDialogue02="
+ 
+ You need to bring me the mould.. And money! I don't work for 
+ free.. It's a living right? You understand! And I need to pay the 
+ guards off to run my busniess safely. Those greedy bastards." SantosoInitialDialogue03="
+ 
+ I'll do this for you for five hundred bucks. What's with the face? 
+ You want a discount or osmething? Yeah everyone does. Since 
+ your new here I'll give you a special discount. Ten dollars." SantosoInitialDialogue04="
+ 
+ Now go and don't expect me to pull anymore favours boy. 
+ Now you get your own mould. Go talk to your boss."/>
+	<SantosoDialogue SantosoInitialDialogue01="
+ 
+ Eh? Talk to the sword 'cause the hand is holding the sword! 
+ Hahahaha.. Ha.. No? Nothing? Tough crowd." SantosoInitialDialogue02="
+ 
+ Look son get a sense of humour or else you will go crazy 
+ in here. It's not that you won't go crazy.." SantosoInitialDialogue03="
+ 
+ Everything is just going to seem a little funny. Hehehe.. So what 
+ do you want boy? Hmm.. The Skeleton Key huh.."/>
+	<JollyTalkToTheSword JollyInitialDialogue01="
+ The Cell Block Key is the master key that Lin Ma keeps in his 
+ Office. And I want it. Since he'll notice it gone I need you to 
+ make a copy" JollyInitialDialogue02="
+ 
+Go back to the Cells and find Santoso. He'll tell you what you 
+need to make a copy. Now, he might sound a bit crazy but listen 
+to what he says. He's trustworthy and deals shit for me."/>
+	<FactionAllignedJolly JollyInitialDialogue01=" 
+ 
+ What's makin' you think you are some use to me? Get the 
+ fuck out of my face! Look if you wanna keep pissin' me off...Wait.. 
+ Aren't you the guy Lin Ma's been handin' out cigs too?" JollyInitialDialogue02="
+ 
+ 
+ Well you might be some use after all. I'll buy 'em off ya. If you 
+ want to be my chroney, all you gotta do is ask!"/> 
+	<AfterFactionAllignedJolly JollyInitialDialogue01="
+ 
+ You need to try and keep notes of the stuff we do and the stuff 
+ I tells you. You got a Notebook? No? Here, take this" JollyInitialDialogue02="
+ 
+ It's now the time for you to prove yourself to me. I got this job 
+ for someone else but he got caught by the guards. Idiots in 
+ confinement for weeks. Let's see if you're smarter than him"/>
+	//if you havnt picked a faction yet//
+	<NoFaction Jolly="Hmmm. what do you want fish? Get lost." GemeniTwins="Leave us be, we don't like being bothered by people like you." />
+	//lin mas quests//
+	<Train LinMasInitialDialogue01="
+ 
+ You'll be fighting Danny Boy. Go around, make some friends, and 
+ make some enemies. Practice fighting and use the gym" LinMasInitialDialogue02="
+ 
+ Toughen up and come to me. I'll arrange a fight for you. 
+ Now go, maybe after all this I should make you find out 
+ about who broke into my office?" LinMasInitialDialogue03="
+ 
+ 
+ The nerves of these bastards. Hmph.... Go now." />
+	<WhoIsEscaping LinMasInitialDialogue01="
+ 
+ You coming along nicely. Since you've shown some interest in 
+ working for me, I have a job for you to do that requires 
+ investigating." LinMasInitialDialogue02="
+ 
+ One of my guards has heard a rumour that someone in my prison 
+ is planning on an escape." LinMasInitialDialogue03="
+ 
+ Escape attempts will only force us to damage the goods and
+ we don't want that.It will look bad on me will it not? I want
+ you to search for clues and find who is trying to escape." LinMasInitialDialogue04="
+ 
+ That will make me unable to help you anymore.So go now...
+ and don't get any smart ideas." LinMasFailure="
+ 
+ What's taking you so long? For your sake, you better not be 
+ trying to cross me. Wouldn't want to lose two healthy candidates 
+ now would we? Don't make me believe my doubts." LinMasInitialDialogue05="
+ 
+ 
+ Hmmmm... did you find out who it is? Impressive!"
+LinMasInitialDialogue06="
+ 
+ Good old Danniel Land... So he thinks he's so wise. Doesn't he 
+ know that the Empire doesn't tolerate any rebellion?"
+ LinMasInitialDialogue07="
+ 
+ Nobody has made it out of the Empire alive. If he wants to leave 
+ so bad he can leave in a body bag. How would you like to fight 
+ him and teach him a lesson?"/>
+	<TheRatsScuttle LinMasInitialDialogue01="
+ 
+The next vermin are the rats. A little closer to your status don't 
+you think? Go to the Cafeteria and kill them immediately. And be 
+promt about it" LinMasFailure="
+ 
+ What's wrong with you? If you cant't kill a couple of rats, how 
+ do you expect a promotion? Get out of my sight and do 
+ as you're told!" LinMasInitialDialogue02="
+ 
+ Excellent! Showing promise of obedience I see. Good, twenty 
+ cigarettes. Now get going, rest up. If you show me that you are 
+ capable of dealing with vermin, I might give you more important 
+ duties." LinMasInitialDialogue03="
+ 
+ And if you want more cigarettes, you can speak with me and 
+ go kill more vermin."/>
+    <MoreBugsInTheSystem LinMasInitialDialogue01="
+ 
+ Here, I'll give you five cigarettes for your previous efforts.
+ Cigarettes are a valuable commodity. If you want more cigarettes 
+ go kill some more cockroaches at the cafeteria"  LinMasFailure="
+ 
+ Come now, seriously? Cockroaches? You can't kill a couple of 
+ pests?" LinMasInitialDialogue02="
+ Eighteen, nineteen, twenty. Good work. But don't get ahead of 
+ yourself. Everyone goes through this process in the Empire. Here 
+ are your cigarettes. Spend them wisely"/>
+	<QuestLog bugInTheSystem="0" theRatScuttle="0" whoIsEscaping="0" train="0" talkToTheSword="0" keyToThePlan="0" knockEmOut="0" chatALittle="0" />
+    <LinMasIntro LinMasInitalDialogue=" 
+ 
+So, you took quite a beating on your way in. Welcome to the 
+Empire, your new home. Don't hope that the worst is over. To 
+survive in here, you'll be smart to make clever alliances with your.. 
+peers. Speak with Jolly or the Stalls brothers."/>
+    <BugsInTheSystem LinMasInitialDialogue01="
+ 
+ It would be in your best interest to be on my good side. I'll help
+ you out a bit, good? Good. Seems like you and I will get along 
+ beautifully." 
+LinMasInitialDialogue02="
+ Of course, you need to earn my respect and I've been told it's no 
+ easy task. Like everyone in this place, you need to start off from 
+ the bottom with the vermin and pests." LinMasInitialDialogue03="
+ 
+ Go kill ten cockroaches in the Cafeteria then come see me" LinMasInitialDialogue04="
+ 
+ C'mon now, seriously? Cockroaches? You can't kill a couple of 
+ pests?
+
+ Go back and complete the task. Do not disappoint me." LinMasInitialDialogue05="
+ 
+ Hard day's work I see? You're starting to be of some use to me.
+ This prison has been restored from an old hotel so there's a minor
+ rodent infestation. Keep up the good work and don't let me down" />
+</QuestLog>

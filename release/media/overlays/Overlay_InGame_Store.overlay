@@ -1,0 +1,59 @@
+Overlay/Syringe
+{
+    zorder 600
+    container Panel(Syringe/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 0.25
+	height 0.35
+
+        material Syringe
+    }
+}
+
+Overlay/StoreState
+{
+    zorder 500
+    container Panel(StoreState/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 1.0
+	height 1.0
+
+        material StoreState
+    }
+}
+
+Overlay/StoreSelect
+{
+	zorder 550
+	container Panel(StoreSelect/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 0.3
+		height 0.06
+
+		material StoreSelect
+	}
+}
+
+Overlay/Painkillers
+{
+    zorder 600
+    container Panel(Painkillers/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 0.25
+	height 0.35
+
+        material Painkillers
+    }
+}

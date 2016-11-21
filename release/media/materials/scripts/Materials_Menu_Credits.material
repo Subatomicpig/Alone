@@ -1,0 +1,17 @@
+material CreditsUIState
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_credits_CreditsUI.png
+			}
+		}
+	}
+}

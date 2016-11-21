@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<QuestDescription>
+    <QuestCaptionName 
+	linMasFinalQuest="Defeat Danny Boy at his own game"
+	linMasTraining="Training"
+	linMasBugInTheSystem="Bugs In The System" 
+	linMasPickAFaction="Pick A Faction" 
+	linMasMoreBugsInTheSystem="More Bugs In The System"  
+	linMasTheRatScuttle="The Rat Scuttle"
+	linMasWhoIsEscaping="Who is Escaping?"
+
+	johnny666Rep="Johnny666 Rep Quest"
+	johnny66680Rep="Johnny666 80 Rep Quest"
+	johnny666CheatALittle="Cheat A Little"
+	johnny666TrainingDone="Johnny666 Training Done"
+
+	geminiThePrideOfJolly="The Pride of Jolly"
+	geminiKnockEmOut="Knock Em Out"
+	geminiKeyToThePlan="Key To The Plan"
+	geminiTalkToTheSword="Talk To The Sword"
+	
+	jollyTwoPendants="Two Pendants"
+	jollyKnockEmOut="Knock Em Out"
+	jollyKeyToThePlan="Key To The Plan"
+	jollyTalkToTheSword="Talk To The Sword"
+	
+	santosoKeyToThePlan="Key To The Plan"
+	santosoTalkToTheSword="Talk To The Sword"/>
+
+    <Description 
+	linMasPickAFaction="Speak with either Jolly or the Gemini 
+
+Twins to align yourself with a faction. 
+
+Choose wisely." 
+	
+	linMasBugInTheSystem="Make your way to the cafeteria and 
+
+proceed to kill ten cockroaches. Return 
+
+to Lin Ma when you have completed this 
+
+task." 
+	
+	linMasMoreBugsInTheSystem="Make your way to the cafeteria and  
+
+proceed to kill twenty cockroaches again. 
+
+Return to Lin Ma when you have completed 
+
+this task."  
+	
+	linMasTheRatScuttle="Make your way to the cafeteria and 
+
+proceed to kill twenty rats. Return 
+
+to Lin Ma when you have completed this 
+
+task."
+	
+	linMasWhoIsEscaping="Figure out who is making the escape 
+
+plans and report back to Lin Ma."
+	
+	linMasTraining="Speak to Johnny666 to use the training 
+
+grounds and prepare for the fight to 
+
+come."
+	linMasFinalQuest="Show up at the Arena and prepare for the 
+
+final Fight."
+	
+	jollyTalkToTheSword="Find Santoso and speak with him about 
+
+the Skeleton Key."
+
+	jollyKeyToThePlan="Report back to Jolly about your meeting 
+
+with Santoso."
+	
+	jollyTwoPendants="Sneak into the Gemini Twin's cell and 
+
+steal the pendants from them, Return to 
+
+Jolly after."
+	
+	jollyKnockEmOut="Train up at Johnny666, find the Gemini 
+
+Twins after you've completed the this 
+
+task."
+	
+	geminiTalkToTheSword="Find Santoso and speak with him about 
+
+the Skeleton Key."
+
+	geminiKeyToThePlan="Report back to the twins about your 
+
+meeting with Santoso."
+
+	geminiKnockEmOut="Train up at Johnny666, find Jolly after 
+
+you've completed the this task."
+
+	geminiThePrideOfJolly="Sneak into Jolly's cell and steal 
+
+the earring from him. Return to Jolly 
+
+after."
+	
+	johnny666CheatALittle="Retrieve a bottle of steroids and bring 
+
+it back to Johnny666."/>
+	<ItemDescription 
+		Cigarettes="A necessary addiction. 5 cigarettes can be 
+
+exchanged with the faction leader for $1 in cash." 
+		
+		SteroidSyringe="Boosts muscle power and provides extraordinary 
+
+strength. This item when used gives you 3 
+
+exercise points." 
+		
+		Soap="This item is used to make an imprint of the Cell 
+
+Block Key. Make sure not to drop it in the shower." 		
+		
+		SoapMould="The bar of soap molded with an imprint of the 
+
+Cell Block Key. Give this item to Santoso to 
+
+make copies of the key." 
+		
+		OfficeKey="This is the key to Lin Ma's office." 
+
+		CellBlockKey="This key unlocks all the cells. Make sure you 
+
+use it stealthily." 
+		
+		PainKillers="Blocks out the pain. This item heals the player 
+
+in the arena while in combat (you can only have 
+
+one of these in your inventory at all times)." 
+		
+		Money="Cold hard cash. Used to purchase items from 
+
+Santoso's store." 
+		
+		Pendant="A priceless treasure of Terrence and Dougie 
+
+Stalls (The Gemini Killers)." 
+		
+		Earring="Jolly's pride and joy. Rumors say that Jolly 
+
+ripped it of a popstar's ear after he murdered her." 		
+
+		Cockroach="This filthy infestation of bugs can be found in 
+
+the cafeteria. Good thing they're high in protein." 		
+
+		Rat="This rodent menace is found in the cafeteria. 
+
+Try not to catch the bubonic plague."/>
+</QuestDescription>

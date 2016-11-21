@@ -1,0 +1,89 @@
+Overlay/PowerMeter
+{
+    zorder 100
+    container Panel(PowerMeter/Background)
+    {
+	metrics_mode relative
+	top 0.9
+	left 0.0
+	width 0.2
+	height 0.11
+
+        material PowerMeter
+    }
+}
+
+Overlay/PowerBar1
+{
+    zorder 300
+    container Panel(PowerBar1/Background)
+    {
+	metrics_mode relative
+	top 0.96
+	left 0.015
+	width 0.035
+	height 0.03
+
+        material PowerBar1
+    }
+}
+
+Overlay/PowerBar2
+{
+    zorder 200
+    container Panel(PowerBar2/Background)
+    {
+	metrics_mode relative
+	top 0.96
+	left 0.05
+	width 0.035
+	height 0.03
+
+        material PowerBar2
+    }
+}
+
+Overlay/PowerBar3
+{
+    zorder 200
+    container Panel(PowerBar3/Background)
+    {
+	metrics_mode relative
+	top 0.96
+	left 0.085
+	width 0.035
+	height 0.03
+
+        material PowerBar3
+    }
+}
+
+Overlay/PowerBar4
+{
+    zorder 200
+    container Panel(PowerBar4/Background)
+    {
+	metrics_mode relative
+	top 0.96
+	left 0.12
+	width 0.035
+	height 0.03
+
+        material PowerBar4
+    }
+}
+
+Overlay/PowerBar5
+{
+    zorder 200
+    container Panel(PowerBar5/Background)
+    {
+	metrics_mode relative
+	top 0.96
+	left 0.155
+	width 0.035
+	height 0.03
+
+        material PowerBar5
+    }
+}

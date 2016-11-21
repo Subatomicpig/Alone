@@ -1,0 +1,107 @@
+material PowerMeter
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_PowerAttkMeterOverlay.png
+			}
+		}
+	}
+}
+
+material PowerBar1
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_PowerAttkMeterBAROverlay.png
+			}
+		}
+	}
+}
+
+material PowerBar2
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_PowerAttkMeterBAROverlay.png
+			}
+		}
+	}
+}
+
+material PowerBar3
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_PowerAttkMeterBAROverlay.png
+			}
+		}
+	}
+}
+
+material PowerBar4
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_PowerAttkMeterBAROverlay.png
+			}
+		}
+	}
+}
+
+material PowerBar5
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_PowerAttkMeterBAROverlay.png
+			}
+		}
+	}
+}

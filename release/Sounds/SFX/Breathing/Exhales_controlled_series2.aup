@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<audacityproject projname="Exhales_controlled_series2_data" version="1.1.0" audacityversion="1.2.5" sel0="0.0000000000" sel1="14.7185000000" vpos="0" h="0.0000000000" zoom="64.7486772487" rate="8000.000000" >
+	<tags title="" artist="" album="" track="-1" year="" genre="-1" comments="" id3v2="1" />
+	<wavetrack name="611906_SOUNDDOGS__hu" channel="2" linked="0" offset="0.00000000" rate="8000.000000" gain="1.000000" pan="0.000000" >
+		<sequence maxsamples="262144" sampleformat="262159" numsamples="117748" >
+			<waveblock start="0" >
+				<simpleblockfile filename='b00041.au' len='117748' min='-0.520480' max='0.597412' rms='0.062946'/>
+			</waveblock>
+		</sequence>
+		<envelope numpoints='0'>
+		</envelope>
+	</wavetrack>
+</audacityproject>

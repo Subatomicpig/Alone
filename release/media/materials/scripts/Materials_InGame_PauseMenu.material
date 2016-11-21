@@ -1,0 +1,453 @@
+material MissionsUI
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_ingamepause_MissionsUI.png
+            }
+        }
+    }
+}
+
+material StatusUI
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_ingamepause_StatusUI.png
+            }
+        }
+    }
+}
+
+material InventoryUI
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_ingamepause_InventoryUI.png
+            }
+        }
+    }
+}
+
+material MapUI
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_ingamepause_MapUI.png
+            }
+        }
+    }
+}
+
+material GameOptionsUI
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_ingamepause_GameOptionsUI.png
+            }
+        }
+    }
+}
+
+material PauseSelection
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_ingamepause_PauseSelection.png
+            }
+        }
+    }
+}
+
+material ArenaMap
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture arenaMap.dds
+            }
+        }
+    }
+}
+
+
+material CafeteriaMap
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture cafeMap.dds
+            }
+        }
+    }
+}
+
+material CellsMap
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture cellsMap.dds
+            }
+        }
+    }
+}
+
+
+material CourtyardMap
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture courtyardMap.dds
+            }
+        }
+    }
+}
+
+material Cash
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_CASH.png
+            }
+        }
+    }
+}
+
+material CellBlockKey
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_CELLBLOCK_KEY.png
+            }
+        }
+    }
+}
+
+material CigaretteBox
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_CIGARETTEBOX.png
+            }
+        }
+    }
+}
+
+material EscapePlans
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_ESCAPEPLANS.png
+            }
+        }
+    }
+}
+
+material OfficeKey
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_OFFICEKEY.png
+            }
+        }
+    }
+}
+
+
+material PainKillers
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_PAINKILLERS.png
+            }
+        }
+    }
+}
+
+material Soap
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_SOAP.png
+            }
+        }
+    }
+}
+
+material SoapMould
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_SOAPMOULD.png
+            }
+        }
+    }
+}
+
+material SteroidSyringe
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_STEROIDSYRINGE.png
+            }
+        }
+    }
+}
+
+material Cockroach
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_COCKROACH.png
+            }
+        }
+    }
+}
+
+
+material Rat
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_RAT.png
+            }
+        }
+    }
+}
+
+material Pendant
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_pendant.png
+            }
+        }
+    }
+}
+
+material Earring
+{
+    technique
+    {
+        pass
+        {
+            depth_check off
+            lighting off
+            scene_blend alpha_blend
+
+            texture_unit
+            {
+                texture VGD_Alone_gui_overlay_Earing.png
+            }
+        }
+    }
+}
+
+material PauseMenuExit
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_menu_mainmenuEXIT_CONFORM.png
+			}
+		}
+	}
+}
+
+material PauseMenuSave
+{
+	technique
+	{
+		pass
+		{
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture VGD_Alone_gui_notebook_01gameoptions_confirm.png
+			}
+		}
+	}
+}

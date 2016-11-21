@@ -1,0 +1,74 @@
+Overlay/MainMenuUIState
+{
+    zorder 100
+    container Panel(MainMenuUIState/Background)
+    {
+	metrics_mode relative
+	top 0.0
+	left 0.0
+	width 1.0
+	height 1.0
+
+        material MainMenuUIState
+    }
+}
+
+Overlay/MainMenuControls
+{
+	zorder 300
+	container Panel(MainMenuControls/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material MainMenuControls
+	}
+}
+
+Overlay/MainMenuSelect
+{
+	zorder 200
+	container Panel(MainMenuSelect/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 0.15
+
+		material MainMenuSelect
+	}
+}
+
+Overlay/MainMenuText
+{
+	zorder 400
+	container Panel(MainMenuText/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material MainMenuText
+	}
+}
+
+Overlay/MainMenuExit
+{
+	zorder 500
+	container Panel(MainMenuExit/Foreground)
+	{
+		metrics_mode relative
+		top 0.0
+		left 0.0
+		width 1.0
+		height 1.0
+
+		material MainMenuExit
+	}
+}

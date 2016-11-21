@@ -1,0 +1,564 @@
+15:56:36: Creating resource group General
+15:56:36: Creating resource group Internal
+15:56:36: Creating resource group Autodetect
+15:56:36: SceneManagerFactory for type 'DefaultSceneManager' registered.
+15:56:36: Registering ResourceManager for type Material
+15:56:36: Registering ResourceManager for type Mesh
+15:56:36: Registering ResourceManager for type Skeleton
+15:56:36: MovableObjectFactory for type 'ParticleSystem' registered.
+15:56:36: OverlayElementFactory for type Panel registered.
+15:56:36: OverlayElementFactory for type BorderPanel registered.
+15:56:36: OverlayElementFactory for type TextArea registered.
+15:56:36: Registering ResourceManager for type Font
+15:56:36: ArchiveFactory for archive type FileSystem registered.
+15:56:36: ArchiveFactory for archive type Zip registered.
+15:56:36: FreeImage version: 3.9.2
+15:56:36: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+15:56:36: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi
+15:56:36: DDS codec registering
+15:56:36: Registering ResourceManager for type HighLevelGpuProgram
+15:56:36: Registering ResourceManager for type Compositor
+15:56:36: MovableObjectFactory for type 'Entity' registered.
+15:56:36: MovableObjectFactory for type 'Light' registered.
+15:56:36: MovableObjectFactory for type 'BillboardSet' registered.
+15:56:36: MovableObjectFactory for type 'ManualObject' registered.
+15:56:36: MovableObjectFactory for type 'BillboardChain' registered.
+15:56:36: MovableObjectFactory for type 'RibbonTrail' registered.
+15:56:36: Loading library .\RenderSystem_Direct3D9
+15:56:36: Installing plugin: D3D9 RenderSystem
+15:56:36: D3D9 : Direct3D9 Rendering Subsystem created.
+15:56:36: D3D9: Driver Detection Starts
+15:56:36: D3D9: Driver Detection Ends
+15:56:36: Plugin successfully installed
+15:56:36: Loading library .\RenderSystem_GL
+15:56:36: Installing plugin: GL RenderSystem
+15:56:36: OpenGL Rendering Subsystem created.
+15:56:36: Plugin successfully installed
+15:56:36: Loading library .\Plugin_ParticleFX
+15:56:36: Installing plugin: ParticleFX
+15:56:36: Particle Emitter Type 'Point' registered
+15:56:36: Particle Emitter Type 'Box' registered
+15:56:36: Particle Emitter Type 'Ellipsoid' registered
+15:56:36: Particle Emitter Type 'Cylinder' registered
+15:56:36: Particle Emitter Type 'Ring' registered
+15:56:36: Particle Emitter Type 'HollowEllipsoid' registered
+15:56:36: Particle Affector Type 'LinearForce' registered
+15:56:36: Particle Affector Type 'ColourFader' registered
+15:56:36: Particle Affector Type 'ColourFader2' registered
+15:56:36: Particle Affector Type 'ColourImage' registered
+15:56:36: Particle Affector Type 'ColourInterpolator' registered
+15:56:36: Particle Affector Type 'Scaler' registered
+15:56:36: Particle Affector Type 'Rotator' registered
+15:56:36: Particle Affector Type 'DirectionRandomiser' registered
+15:56:36: Particle Affector Type 'DeflectorPlane' registered
+15:56:36: Plugin successfully installed
+15:56:36: Loading library .\Plugin_BSPSceneManager
+15:56:36: Installing plugin: BSP Scene Manager
+15:56:36: Plugin successfully installed
+15:56:36: Loading library .\Plugin_OctreeSceneManager
+15:56:36: Installing plugin: Octree & Terrain Scene Manager
+15:56:36: Plugin successfully installed
+15:56:36: Loading library .\Plugin_CgProgramManager
+15:56:36: Installing plugin: Cg Program Manager
+15:56:36: Plugin successfully installed
+15:56:36: *-*-* OGRE Initialising
+15:56:36: *-*-* Version 1.4.4 (Eihort)
+15:56:36: Retrieving game configuration
+15:56:36: Parsing config files
+15:56:36: Parsing [Alone.cfg] config file
+15:56:36: [Renderer] = [Direct3D]
+15:56:36: [FPS] = [60]
+15:56:36: [width] = [1024]
+15:56:36: [height] = [768]
+15:56:36: [Full Screen] = [no]
+15:56:36: [Title] = [Alone - FourThought]
+15:56:36: [vsync] = [true]
+15:56:36: [FSAA] = [0]
+15:56:36: [useNVPerfHUD] = [true]
+15:56:36: [show_FPS] = [1]
+15:56:36: Starting game
+15:56:36: Creating resource group Bootstrap
+15:56:36: Added resource location 'media/packs/OgreCore.zip' of type 'Zip' to resource group 'Bootstrap'
+15:56:36: Added resource location 'media' of type 'FileSystem' to resource group 'General'
+15:56:36: Added resource location 'media/fonts' of type 'FileSystem' to resource group 'General'
+15:56:36: Added resource location 'media/materials/programs' of type 'FileSystem' to resource group 'General'
+15:56:36: Added resource location 'media/materials/scripts' of type 'FileSystem' to resource group 'General'
+15:56:37: Added resource location 'media/materials/textures' of type 'FileSystem' to resource group 'General'
+15:56:37: Added resource location 'media/models' of type 'FileSystem' to resource group 'General'
+15:56:37: Added resource location 'media/overlays' of type 'FileSystem' to resource group 'General'
+15:56:37: Added resource location 'media/parFileSystem=media/gui' of type 'FileSystem' to resource group 'General'
+15:56:37: Added resource location 'media/DeferredShadingMedia' of type 'FileSystem' to resource group 'General'
+15:56:37: Added resource location 'media/particle' of type 'FileSystem' to resource group 'General'
+15:56:37: Added resource location 'media/materials/programs' of type 'FileSystem' to resource group 'General'
+15:56:37: Added resource location 'media/packs/cubemap.zip' of type 'Zip' to resource group 'General'
+15:56:37: Added resource location 'media/packs/cubemapsJS.zip' of type 'Zip' to resource group 'General'
+15:56:37: Added resource location 'media/packs/dragon.zip' of type 'Zip' to resource group 'General'
+15:56:37: Added resource location 'media/packs/fresneldemo.zip' of type 'Zip' to resource group 'General'
+15:56:37: Added resource location 'media/packs/ogretestmap.zip' of type 'Zip' to resource group 'General'
+15:56:37: Added resource location 'media/packs/skybox.zip' of type 'Zip' to resource group 'General'
+15:56:37: CPU Identifier & Features
+15:56:37: -------------------------
+15:56:37:  *   CPU ID: GenuineIntel: Intel(R) Pentium(R) D CPU 3.20GHz
+15:56:37:  *      SSE: yes
+15:56:37:  *     SSE2: yes
+15:56:37:  *     SSE3: yes
+15:56:37:  *      MMX: yes
+15:56:37:  *   MMXEXT: yes
+15:56:37:  *    3DNOW: no
+15:56:37:  * 3DNOWEXT: no
+15:56:37:  *     CMOV: yes
+15:56:37:  *      TSC: yes
+15:56:37:  *      FPU: yes
+15:56:37:  *      PRO: yes
+15:56:37:  *       HT: yes
+15:56:37: -------------------------
+15:56:37: D3D9 : Subsystem Initialising
+15:56:37: ***************************************
+15:56:37: *** D3D9 : Subsystem Initialised OK ***
+15:56:37: ***************************************
+15:56:37: Creating first window
+15:56:37: D3D9RenderSystem::createRenderWindow "Alone - FourThought", 1024x768 windowed  miscParams: FPS=60 FSAA=0 Full Screen=no Renderer=Direct3D Title=Alone - FourThought fullscreen=false height=768 monitors=1 resolution=1024x768 show_FPS=1 useNVPerfHUD=true vsync=true width=1024 
+15:56:37: D3D9 : Created D3D9 Rendering Window 'Alone - FourThought' : 1024x768, 32bpp
+15:56:37: Registering ResourceManager for type Texture
+15:56:37: Registering ResourceManager for type GpuProgram
+15:56:37: D3D9: Vertex texture format supported - PF_FLOAT32_RGB
+15:56:37: D3D9: Vertex texture format supported - PF_FLOAT32_RGBA
+15:56:37: D3D9: Vertex texture format supported - PF_FLOAT32_R
+15:56:37: RenderSystem capabilities
+15:56:37: -------------------------
+15:56:37:  * Hardware generation of mipmaps: yes
+15:56:37:  * Texture blending: yes
+15:56:37:  * Anisotropic texture filtering: yes
+15:56:37:  * Dot product texture operation: yes
+15:56:37:  * Cube mapping: yes
+15:56:37:  * Hardware stencil buffer: yes
+15:56:37:    - Stencil depth: 8
+15:56:37:    - Two sided stencil support: yes
+15:56:37:    - Wrap stencil values: yes
+15:56:37:  * Hardware vertex / index buffers: yes
+15:56:37:  * Vertex programs: yes
+15:56:37:    - Max vertex program version: vs_3_0
+15:56:37:  * Fragment programs: yes
+15:56:37:    - Max fragment program version: ps_3_0
+15:56:37:  * Texture Compression: yes
+15:56:37:    - DXT: yes
+15:56:37:    - VTC: no
+15:56:37:  * Scissor Rectangle: yes
+15:56:37:  * Hardware Occlusion Query: yes
+15:56:37:  * User clip planes: yes
+15:56:37:  * VET_UBYTE4 vertex element type: yes
+15:56:37:  * Infinite far plane projection: yes
+15:56:37:  * Hardware render-to-texture: yes
+15:56:37:  * Floating point textures: yes
+15:56:37:  * Non-power-of-two textures: yes
+15:56:37:  * Volume textures: yes
+15:56:37:  * Multiple Render Targets: 4
+15:56:37:  * Point Sprites: yes
+15:56:37:  * Extended point parameters: yes
+15:56:37:  * Max Point Size: 8192
+15:56:37:  * Vertex texture fetch: yes
+15:56:37:    - Max vertex textures: 4
+15:56:37:    - Vertex textures shared: no
+15:56:37: ResourceBackgroundQueue - threading disabled
+15:56:37: Particle Renderer Type 'billboard' registered
+15:56:37: SceneManagerFactory for type 'OctreeSceneManager' registered.
+15:56:37: SceneManagerFactory for type 'TerrainSceneManager' registered.
+15:56:37: SceneManagerFactory for type 'BspSceneManager' registered.
+15:56:37: Registering ResourceManager for type BspLevel
+15:56:37: --- Creating camera: DUMMY_CAMERA
+15:56:37: Creating viewport on target 'Alone - FourThought', rendering from camera 'DUMMY_CAMERA', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 100
+15:56:37: Parsing scripts for resource group Autodetect
+15:56:37: Finished parsing scripts for resource group Autodetect
+15:56:37: Parsing scripts for resource group Bootstrap
+15:56:37: Parsing script OgreCore.material
+15:56:37: Parsing script OgreProfiler.material
+15:56:37: Parsing script Ogre.fontdef
+15:56:37: Parsing script OgreDebugPanel.overlay
+15:56:37: Texture: New_Ogre_Border_Center.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+15:56:37: Texture: New_Ogre_Border.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+15:56:37: Texture: New_Ogre_Border_Break.png: Loading 1 faces(PF_A8R8G8B8,32x32x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,32x32x1.
+15:56:37: Font BlueHighwayusing texture size 512x512
+15:56:37: Info: Freetype returned null for character 127 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 128 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 129 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 130 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 131 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 132 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 133 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 134 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 135 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 136 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 137 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 138 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 139 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 140 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 141 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 142 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 143 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 144 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 145 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 146 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 147 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 148 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 149 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 150 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 151 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 152 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 153 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 154 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 155 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 156 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 157 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 158 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 159 in font BlueHighway
+15:56:37: Info: Freetype returned null for character 160 in font BlueHighway
+15:56:37: Texture: BlueHighwayTexture: Loading 1 faces(PF_BYTE_LA,512x512x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x512x1.
+15:56:37: Texture: ogretext.png: Loading 1 faces(PF_A8R8G8B8,256x128x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x128x1.
+15:56:37: Parsing script OgreLoadingPanel.overlay
+15:56:37: Finished parsing scripts for resource group Bootstrap
+15:56:37: Parsing scripts for resource group General
+15:56:37: Parsing script Program_NormalMapping.program
+15:56:37: Parsing script deferred.glsl.program
+15:56:37: Parsing script deferred.hlsl.program
+15:56:37: Parsing script deferred_post_debug.glsl.program
+15:56:37: Parsing script deferred_post_debug.hlsl.program
+15:56:37: Parsing script deferred_post_minilight.glsl.program
+15:56:37: Parsing script deferred_post_minilight.hlsl.program
+15:56:37: Parsing script deferred_post_multipass.glsl.program
+15:56:37: Parsing script deferred_post_multipass.hlsl.program
+15:56:37: Parsing script deferred_post_onepass.glsl.program
+15:56:37: Parsing script deferred_post_onepass.hlsl.program
+15:56:37: Parsing script Materials_Combat.Material
+15:56:37: Parsing script Materials_InGame_Characters.Material
+15:56:37: Error in material VGD_Alone_Char_Jolly_Tex at line 832 of Materials_InGame_Characters.Material: Expecting '{' but got {// This is the preferred technique which uses both vertex and instead.
+15:56:37: Parsing script Materials_InGame_HUD.Material
+15:56:37: Parsing script Materials_InGame_PauseMenu.material
+15:56:37: Parsing script Materials_InGame_Store.material
+15:56:37: Parsing script Materials_InGame_Workout.material
+15:56:37: Parsing script Materials_Level_Arena.material
+15:56:37: Error in material people at line 11 of Materials_Level_Arena.material: Unrecognised command: cull_Hardware
+15:56:37: Parsing script Materials_Level_Cafeteria.material
+15:56:37: Parsing script Materials_Level_Cells_Day.material
+15:56:37: Parsing script Materials_Level_Cells_Night.material
+15:56:37: Parsing script Materials_Level_Courtyard.material
+15:56:37: Parsing script Materials_Menu_CharacterEditor.Material
+15:56:37: Parsing script Materials_Menu_Credits.material
+15:56:37: Parsing script Materials_Menu_LoadGame.Material
+15:56:37: Parsing script Materials_Menu_MainMenu.Material
+15:56:37: Parsing script Materials_Menu_Options.Material
+15:56:37: Parsing script terrence.material
+15:56:37: Error in material terrence at line 11 of terrence.material: Invalid vertex_program_ref entry - vertex program BlinnVP has not been defined.
+15:56:37: Error in material terrence at line 15 of terrence.material: Invalid fragment_program_ref entry - fragment program Blinn_DiffuseMap_FP has not been defined.
+15:56:37: Parsing script VGD_Alone_lvl_playercell.mesh.material
+15:56:37: Parsing script VGD_Alone_proptexture_EscapePlans.png.material
+15:56:37: Parsing script VGD_Alone_prop_camera.mesh.material
+15:56:37: Error in material vgd_alone_prop_tex_camera at line 11 of VGD_Alone_prop_camera.mesh.material: Invalid vertex_program_ref entry - vertex program BlinnVP has not been defined.
+15:56:37: Error in material vgd_alone_prop_tex_camera at line 15 of VGD_Alone_prop_camera.mesh.material: Invalid fragment_program_ref entry - fragment program Blinn_DiffuseMap_FP has not been defined.
+15:56:37: Parsing script deferred.material
+15:56:37: Parsing script deferreddemo.material
+15:56:37: Parsing script deferred_post_debug.material
+15:56:37: Parsing script deferred_post_minilight.material
+15:56:37: Parsing script deferred_post_multipass.material
+15:56:37: Parsing script deferred_post_onepass.material
+15:56:37: Parsing script RomanBath.material
+15:56:37: Parsing script MyFont.fontdef
+15:56:37: Parsing script sample.fontdef
+15:56:37: Parsing script emitted_emitter.particle
+15:56:37: Parsing script Example-Water.particle
+15:56:37: Parsing script Example.particle
+15:56:37: Parsing script smoke.particle
+15:56:37: Parsing script Overlay_Combat.overlay
+15:56:37: Texture: VGD_Alone_gui_PowerAttkMeterOverlay.png: Loading 1 faces(PF_A8R8G8B8,209x85x1) with 7 generated mipmaps from Image. Internal format is PF_A8R8G8B8,209x85x1.
+15:56:37: Texture: VGD_Alone_gui_PowerAttkMeterBAROverlay.png: Loading 1 faces(PF_A8R8G8B8,36x23x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,36x23x1.
+15:56:37: Parsing script Overlay_InGame_HUD.overlay
+15:56:37: Texture: VGD_Alone_gui_hud_abutton.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:37: Texture: VGD_Alone_gui_hud_bbutton.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:38: Texture: VGD_Alone_gui_hud_xbutton.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:38: Texture: VGD_Alone_gui_hud_ybutton.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:38: Texture: VGD_Alone_gui_hud_posstand.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:39: Texture: VGD_Alone_gui_hud_poscrouch.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:39: Texture: VGD_Alone_gui_hud_facebuttons.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:39: Texture: VGD_Alone_gui_hud_TextBox.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:40: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_knockOut.dds' with 2147483647 mip map levels
+15:56:40: Parsing script Overlay_InGame_PauseMenu.overlay
+15:56:40: Texture: VGD_Alone_gui_ingamepause_MissionsUI.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:41: Texture: VGD_Alone_gui_ingamepause_StatusUI.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:41: Texture: VGD_Alone_gui_ingamepause_InventoryUI.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:41: Texture: VGD_Alone_gui_ingamepause_MapUI.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:42: Texture: VGD_Alone_gui_ingamepause_GameOptionsUI.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:42: Texture: VGD_Alone_gui_ingamepause_PauseSelection.png: Loading 1 faces(PF_A8R8G8B8,30x30x1) with 4 generated mipmaps from Image. Internal format is PF_A8R8G8B8,30x30x1.
+15:56:43: D3D9 : Loading 2D Texture, image name : 'arenaMap.dds' with 2147483647 mip map levels
+15:56:43: D3D9 : Loading 2D Texture, image name : 'cafeMap.dds' with 2147483647 mip map levels
+15:56:44: D3D9 : Loading 2D Texture, image name : 'cellsMap.dds' with 2147483647 mip map levels
+15:56:44: D3D9 : Loading 2D Texture, image name : 'courtyardMap.dds' with 2147483647 mip map levels
+15:56:44: Texture: VGD_Alone_gui_overlay_CASH.png: Loading 1 faces(PF_A8R8G8B8,267x163x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x163x1.
+15:56:44: Texture: VGD_Alone_gui_overlay_CELLBLOCK_KEY.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:44: Texture: VGD_Alone_gui_overlay_CIGARETTEBOX.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:44: Texture: VGD_Alone_gui_overlay_ESCAPEPLANS.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:44: Texture: VGD_Alone_gui_overlay_OFFICEKEY.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:44: Texture: VGD_Alone_gui_overlay_PAINKILLERS.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_overlay_SOAP.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_overlay_SOAPMOULD.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_overlay_STEROIDSYRINGE.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_overlay_COCKROACH.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_overlay_RAT.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_overlay_pendant.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_overlay_Earing.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_menu_mainmenuEXIT_CONFORM.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:45: Texture: VGD_Alone_gui_notebook_01gameoptions_confirm.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:45: Parsing script Overlay_InGame_Store.overlay
+15:56:45: Texture: VGD_Alone_gui_storeoverlay_Steroidsyringe.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:45: Texture: VGD_Alone_gui_storeoverlay.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:46: Texture: VGD_Alone_gui_storeoverlayHIGHLIGHT.png: Loading 1 faces(PF_A8R8G8B8,299x45x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,299x45x1.
+15:56:46: Texture: VGD_Alone_gui_storeoverlay_Painkillers.png: Loading 1 faces(PF_A8R8G8B8,267x277x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,267x277x1.
+15:56:46: Parsing script Overlay_InGame_Workout.overlay
+15:56:46: Texture: VGD_Alone_gui_workoutoverlay.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:46: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource TrainingText.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: Error loading texture TrainingText.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource TrainingText.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: Texture: VGD_Alone_gui_menu_Selector.png: Loading 1 faces(PF_A8R8G8B8,81x38x1) with 6 generated mipmaps from Image. Internal format is PF_A8R8G8B8,81x38x1.
+15:56:46: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource TrainingControls.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: Error loading texture TrainingControls.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource TrainingControls.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Painkillers.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: Error loading texture Painkillers.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Painkillers.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Painkillers.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: Error loading texture Painkillers.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Painkillers.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Syringe.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: Error loading texture Syringe.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Syringe.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Syringe.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: Error loading texture Syringe.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource Syringe.png in resource group General or any other group. in ResourceGroupManager::openResource at ..\src\OgreResourceGroupManager.cpp (line 603)
+15:56:46: Parsing script Overlay_Menu_CharacterEditor.overlay
+15:56:46: Texture: VGD_Alone_gui_menu_createcharacter.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:47: Texture: VGD_Alone_gui_menu_charactereditor_CharacterEditorHilighter.png: Loading 1 faces(PF_A8R8G8B8,89x16x1) with 6 generated mipmaps from Image. Internal format is PF_A8R8G8B8,89x16x1.
+15:56:47: Texture: VGD_Alone_gui_menu_charactereditor_CharacterEditorText.png: Loading 1 faces(PF_A8R8G8B8,369x157x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,369x157x1.
+15:56:47: Parsing script Overlay_Menu_Credits.overlay
+15:56:47: Texture: VGD_Alone_gui_menu_credits_CreditsUI.png: Loading 1 faces(PF_R8G8B8,1024x3060x1) with 11 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x3060x1.
+15:56:48: Parsing script Overlay_Menu_LoadGame.overlay
+15:56:48: Texture: VGD_Alone_gui_menu_loadgame_controls.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:49: Texture: VGD_Alone_gui_menu_loadgame_LoadGameOne.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:49: Texture: VGD_Alone_gui_menu_loadgame_LoadGameTwo.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:49: Texture: VGD_Alone_gui_menu_loadgame_LoadGameThree.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:50: Parsing script Overlay_Menu_MainMenu.overlay
+15:56:50: Texture: VGD_Alone_gui_menu_mainmenu_MainMenuUI.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:50: Texture: VGD_Alone_gui_menu_mainmenu_CONTROLS.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:50: Texture: VGD_Alone_gui_menu_mainmenu_MainMenuSelect.png: Loading 1 faces(PF_A8R8G8B8,1024x95x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x95x1.
+15:56:50: Texture: VGD_Alone_gui_menu_mainmenu_MainMenuText.png: Loading 1 faces(PF_A8R8G8B8,211x350x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,211x350x1.
+15:56:50: Parsing script Overlay_Menu_Options.overlay
+15:56:50: Texture: VGD_Alone_gui_menu_options_OptionsUI.png: Loading 1 faces(PF_R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x768x1.
+15:56:51: Texture: VGD_Alone_gui_menu_options_Gamepad.png: Loading 1 faces(PF_A8R8G8B8,80x20x1) with 6 generated mipmaps from Image. Internal format is PF_A8R8G8B8,80x20x1.
+15:56:51: Texture: VGD_Alone_gui_menu_options_Keyboard.png: Loading 1 faces(PF_A8R8G8B8,90x20x1) with 6 generated mipmaps from Image. Internal format is PF_A8R8G8B8,90x20x1.
+15:56:51: Texture: VGD_Alone_gui_menu_options_OptionsOn.png: Loading 1 faces(PF_A8R8G8B8,38x25x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,38x25x1.
+15:56:51: Texture: VGD_Alone_gui_menu_options_OptionsOff.png: Loading 1 faces(PF_A8R8G8B8,48x25x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,48x25x1.
+15:56:51: Texture: VGD_Alone_gui_menu_options_controls.png: Loading 1 faces(PF_A8R8G8B8,1024x768x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x768x1.
+15:56:51: Texture: VGD_Alone_gui_menu_options_OptionsSelector.png: Loading 1 faces(PF_A8R8G8B8,1024x95x1) with 10 generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x95x1.
+15:56:51: Texture: VGD_Alone_gui_menu_options_OptionsText.png: Loading 1 faces(PF_A8R8G8B8,141x265x1) with 8 generated mipmaps from Image. Internal format is PF_A8R8G8B8,141x265x1.
+15:56:51: Finished parsing scripts for resource group General
+15:56:51: Parsing scripts for resource group Internal
+15:56:51: Finished parsing scripts for resource group Internal
+15:56:51: Initializing OIS input system
+15:56:51: Change into first game state
+15:56:51: Creating viewport on target 'Alone - FourThought', rendering from camera 'EmptyWorkStateCamera', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 0
+15:56:55: Creating viewport on target 'Alone - FourThought', rendering from camera 'CharacterEditorCamera', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 0
+15:56:55: Font MyFontusing texture size 512x256
+15:56:55: Info: Freetype returned null for character 160 in font MyFont
+15:56:55: Texture: MyFontTexture: Loading 1 faces(PF_BYTE_LA,512x256x1) with 0 generated mipmaps from Image. Internal format is PF_BYTE_LA,512x256x1.
+15:56:55: Mesh: Loading VGD_Alone_lvl_playercell.mesh.
+15:56:55: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_wallpapercells_diffuse.dds' with 2147483647 mip map levels
+15:56:55: Texture: vgd_alone_lvl_playercell_lightmap.png: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+15:56:55: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_wallpaperwashroom_diffuse.dds' with 2147483647 mip map levels
+15:56:55: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_wooddark_diffuse.dds' with 2147483647 mip map levels
+15:56:55: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_brick_diffuse.dds' with 2147483647 mip map levels
+15:56:55: Texture: VGD_Alone_lvl_tex_cells_concreterafters_diffuse.png: Loading 1 faces(PF_R8G8B8,1024x341x1) with 10 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x341x1.
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_woodplanks_diffuse.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_carpethall_diffuse.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_concrete_diffuse.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_floortiles_diffuse.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_dirtytoilet_diffuse.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_sinkcell_diffuse.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_light_diffuse.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_toiletpaperroll_diffuse.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_bedsingle_diffuse.dds' with 2147483647 mip map levels
+15:56:56: Mesh: Loading VGD_Alone_Char_MainShirt.mesh.
+15:56:56: Skeleton: Loading VGD_Alone_Char_MainShirt.mesh.skeleton
+15:56:56: Can't assign material VGD_Alone_char_tex_playershirt_baldasian to SubEntity of Shirt because this Material does not exist. Have you forgotten to define it in a .material script?
+15:56:56: Can't assign material VGD_ALONE_Main_tex_shirt_hair to SubEntity of Shirt because this Material does not exist. Have you forgotten to define it in a .material script?
+15:56:56: Mesh: Loading VGD_Alone_char_playershirtless.mesh.
+15:56:56: Skeleton: Loading VGD_Alone_char_playershirtless.mesh.skeleton
+15:56:56: Can't assign material VGD_Alone_char_tex_playershirtless_baldasian to SubEntity of Shirtless because this Material does not exist. Have you forgotten to define it in a .material script?
+15:56:56: Can't assign material VGD_ALONE_Main_tex_tank_hair to SubEntity of Shirtless because this Material does not exist. Have you forgotten to define it in a .material script?
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_playertank_crewblack_normals.dds' with 2147483647 mip map levels
+15:56:56: Texture: nm.png: Loading 6 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from multiple Images. Internal format is PF_X8R8G8B8,128x128x1.
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_playertank_crewblack_specular.dds' with 2147483647 mip map levels
+15:56:56: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_playertank_crewblack_diffuse.dds' with 2147483647 mip map levels
+15:56:56: Texture: spot_shadow_fade.png: Loading 1 faces(PF_R8G8B8,128x128x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,128x128x1.
+15:56:57: Mesh: Loading VGD_Alone_lvl_cells_night.mesh.
+15:56:58: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_wallpaper_diffuse.dds' with 2147483647 mip map levels
+15:56:58: Texture: vgd_alone_lvl_cells_lightmap_night.png: Loading 1 faces(PF_R8G8B8,2048x2048x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,2048x2048x1.
+15:56:58: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_wallpaperoffice_diffuse.dds' with 2147483647 mip map levels
+15:56:58: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_woodred_diffuse.dds' with 2147483647 mip map levels
+15:56:58: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_metalrusted_diffuse.dds' with 2147483647 mip map levels
+15:56:58: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_wood_diffuse.dds' with 2147483647 mip map levels
+15:56:58: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_carpetoffice_diffuse.dds' with 2147483647 mip map levels
+15:56:58: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_bedbunk_diffuse.dds' with 2147483647 mip map levels
+15:56:59: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_nightstand_diffuse.dds' with 2147483647 mip map levels
+15:56:59: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_lightHanging_diffuse.dds' with 2147483647 mip map levels
+15:56:59: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_lightHanging_selfillum.dds' with 2147483647 mip map levels
+15:56:59: Texture: VGD_Alone_prop_tex_painting01.png: Loading 1 faces(PF_R8G8B8,508x372x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,508x372x1.
+15:56:59: Texture: VGD_Alone_prop_tex_painting04.png: Loading 1 faces(PF_R8G8B8,2160x1440x1) with 11 generated mipmaps from Image. Internal format is PF_X8R8G8B8,2160x1440x1.
+15:57:00: Texture: VGD_Alone_prop_tex_painting11.png: Loading 1 faces(PF_R8G8B8,600x317x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,600x317x1.
+15:57:00: Texture: VGD_Alone_prop_tex_painting10.png: Loading 1 faces(PF_R8G8B8,500x510x1) with 8 generated mipmaps from Image. Internal format is PF_X8R8G8B8,500x510x1.
+15:57:01: Texture: VGD_Alone_prop_tex_painting03.png: Loading 1 faces(PF_R8G8B8,243x781x1) with 9 generated mipmaps from Image. Internal format is PF_X8R8G8B8,243x781x1.
+15:57:01: Texture: VGD_Alone_prop_tex_painting08.png: Loading 1 faces(PF_R8G8B8,1576x2079x1) with 11 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1576x2079x1.
+15:57:02: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_deskchair_diffuse.dds' with 2147483647 mip map levels
+15:57:02: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_desk_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_lamp_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_binder_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_notebook_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_papercase_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_chairvisitor_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_watercooler_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_wooddark_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_sinkoffice_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_cabinet_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_cleantoilet_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_toiletpaper_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_tub_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_metal_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_woodlight_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_walldamage1_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_walldamage2_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_officelight_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_filecabinet_diffuse.dds' with 2147483647 mip map levels
+15:57:03: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cells_exitsign.dds' with 2147483647 mip map levels
+15:57:03: Mesh: Loading VGD_Alone_lvl_cells_Collision.mesh.
+15:57:03: Can't assign material 01 - Default to SubEntity of CellsCollision because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:03: Mesh: Loading VGD_Alone_Char_MainShirtNoTorso.mesh.
+15:57:03: Skeleton: Loading VGD_Alone_Char_MainShirtNoTorso.mesh.skeleton
+15:57:03: Can't assign material VGD_Alone_char_tex_playershirt_baldasian to SubEntity of Shirt because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:03: Mesh: Loading VGD_Alone_char_playershirtlessNoTorso.mesh.
+15:57:03: Skeleton: Loading VGD_Alone_char_playershirtlessNoTorso.mesh.skeleton
+15:57:03: Can't assign material VGD_Alone_char_tex_playershirtless_baldasian to SubEntity of Shirtless because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:03: Mesh: Loading cube.mesh.
+15:57:03: Can't assign material 1 - Default to SubEntity of cube because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:03: Mesh: Loading linMaBody.mesh.
+15:57:03: Skeleton: Loading linMaBody.mesh.skeleton
+15:57:04: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_linma_normals.dds' with 2147483647 mip map levels
+15:57:04: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_linma_diffuse.dds' with 2147483647 mip map levels
+15:57:04: Mesh: Loading DoorCollision.mesh.
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_01Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Mesh: Loading CellDoor_Cells.mesh.
+15:57:04: Texture: vgd_alone_lvl_cells_lightmap_day.png: Loading 1 faces(PF_R8G8B8,2048x2048x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,2048x2048x1.
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_02Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_03Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_04Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_05Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_06Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_07Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_08Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_09Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_10Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_11Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material DoorCollision541_material to SubEntity of Door_12Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Mesh: Loading CellDoor_Office.mesh.
+15:57:04: Can't assign material cell bars to SubEntity of Door_12 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Can't assign material lock to SubEntity of Door_12 because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:04: Creating viewport on target 'Alone - FourThought', rendering from camera 'LevelTestStateCamera', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 0
+15:57:37: Mesh: Loading VGD_Alone_lvl_cells_day.mesh.
+15:57:37: Can't assign material 01 - Default to SubEntity of CellsCollision because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:37: Mesh: Loading VGD_Alone_prop_camera.mesh.
+15:57:37: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_prop_tex_camera_diffuse.dds' with 2147483647 mip map levels
+15:57:37: Can't assign material VGD_Alone_char_tex_playershirt_baldasian to SubEntity of Shirt because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:37: Can't assign material VGD_Alone_char_tex_playershirtless_baldasian to SubEntity of Shirtless because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:37: Mesh: Loading VGD_Alone_Prop_Cigeratte.mesh.
+15:57:37: Can't assign material 01 - Default to SubEntity of EmptyCellCigs because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:37: Mesh: Loading VGD_Alone_Prop_Steroid_Syringe.mesh.
+15:57:37: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_proptexture_steroid_syringe.dds' with 2147483647 mip map levels
+15:57:37: Mesh: Loading VGD_Alone_prop_Money_Stack.mesh.
+15:57:38: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_propTexture_cash.dds' with 2147483647 mip map levels
+15:57:38: Mesh: Loading VGD_Alone_Prop_Soap_Mold.mesh.
+15:57:38: Can't assign material 01 - Default to SubEntity of LinMasSoapNode because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:38: Can't assign material 1 - Default to SubEntity of cube because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:38: Mesh: Loading VGD_Alone_char_santosa.mesh.
+15:57:38: Texture: VGD_Alone_char_tex_santosa_normals.png: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+15:57:38: Texture: VGD_Alone_char_tex_santosa_diffuse.png: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+15:57:38: Mesh: Loading VGD_Alone_char_dannyboy.mesh.
+15:57:38: Texture: VGD_Alone_char_tex_dannyboy_normals.png: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+15:57:38: Texture: VGD_Alone_char_tex_dannyboy_diffuse.png: Loading 1 faces(PF_R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+15:57:38: Mesh: Loading VGD_Alone_char_johnny666.mesh.
+15:57:38: Texture: VGD_Alone_char_tex_johnny666_normals.png: Loading 1 faces(PF_R8G8B8,2048x2048x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,2048x2048x1.
+15:57:39: Texture: VGD_Alone_char_tex_johnny666_diffuse.png: Loading 1 faces(PF_R8G8B8,2048x2048x1) with  hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,2048x2048x1.
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_01Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_02Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_03Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_04Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_05Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_06Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_07Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_08Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_09Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_10Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_11Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Can't assign material DoorCollision541_material to SubEntity of Door_12Col because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:39: Mesh: Loading VGD_Alone_prop_OfficeDoor.mesh.
+15:57:39: Can't assign material 1 - Default to SubEntity of NightNode because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:51: Mesh: Loading Cafeteria.mesh.
+15:57:51: Texture: cafeteria_light_map.tga: Loading 1 faces(PF_A8R8G8B8,2048x2048x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,2048x2048x1.
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cafeteria_concreteceiling_diffuse.dds' with 2147483647 mip map levels
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cafeteria_concretewall_diffuse.dds' with 2147483647 mip map levels
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cafeteria_concretefloor_diffuse.dds' with 2147483647 mip map levels
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cafeteria_kitchen_window_diffuse.dds' with 2147483647 mip map levels
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cafe_door_diffuse.dds' with 2147483647 mip map levels
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cafeteria_plates_diffuse.dds' with 2147483647 mip map levels
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_Prop_tex_table_diffuse.dds' with 2147483647 mip map levels
+15:57:52: Texture: VGD_Alone_lvl_tex_cells_concrete_diffuse.png: Loading 1 faces(PF_A8R8G8B8,1024x1024x1) with  hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,1024x1024x1.
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_lvl_tex_cafeteria_tray_diffuse.dds' with 2147483647 mip map levels
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_Prop_tex_food_diffuse.dds' with 2147483647 mip map levels
+15:57:52: Mesh: Loading Cafeteria_Collision.mesh.
+15:57:52: Can't assign material Collision to SubEntity of CafeteriaCollision because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:52: Can't assign material VGD_Alone_char_tex_playershirt_baldasian to SubEntity of Shirt because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:52: Can't assign material VGD_Alone_char_tex_playershirtless_baldasian to SubEntity of Shirtless because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:52: Can't assign material 1 - Default to SubEntity of cube because this Material does not exist. Have you forgotten to define it in a .material script?
+15:57:52: Mesh: Loading VGD_Alone_char_jolly.mesh.
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_Char_Jolly_Tex_Normal.dds' with 2147483647 mip map levels
+15:57:52: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_Char_Jolly_Tex_Diffuse.dds' with 2147483647 mip map levels
+15:57:52: Mesh: Loading VGD_Alone_char_michael.mesh.
+15:57:53: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_michael_normals.dds' with 2147483647 mip map levels
+15:57:53: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_michael_diffuse.dds' with 2147483647 mip map levels
+15:57:53: Mesh: Loading VGD_Alone_Char_Rat.mesh.
+15:57:53: Skeleton: Loading VGD_Alone_Char_Rat.mesh.skeleton
+15:57:53: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_rat_diffuse.dds' with 2147483647 mip map levels
+15:57:53: Mesh: Loading VGD_Alone_Char_Cockroach.mesh.
+15:57:53: Skeleton: Loading VGD_Alone_Char_Cockroach.mesh.skeleton
+15:57:53: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_cockroach_diffuse.dds' with 2147483647 mip map levels
+15:57:53: D3D9 : Loading 2D Texture, image name : 'VGD_Alone_char_tex_cockroach_alpha.dds' with 2147483647 mip map levels
+15:58:00: Unregistering ResourceManager for type BspLevel
+15:58:00: *-*-* OGRE Shutdown
+15:58:00: Unregistering ResourceManager for type Compositor
+15:58:00: Unregistering ResourceManager for type Font
+15:58:00: Unregistering ResourceManager for type Skeleton
+15:58:00: Unregistering ResourceManager for type Mesh
+15:58:00: Unregistering ResourceManager for type HighLevelGpuProgram
+15:58:00: Uninstalling plugin: Cg Program Manager
+15:58:00: Plugin successfully uninstalled
+15:58:00: Unloading library .\Plugin_CgProgramManager
+15:58:00: Uninstalling plugin: Octree & Terrain Scene Manager
+15:58:00: Plugin successfully uninstalled
+15:58:00: Unloading library .\Plugin_OctreeSceneManager
+15:58:00: Uninstalling plugin: BSP Scene Manager
+15:58:00: Plugin successfully uninstalled
+15:58:00: Unloading library .\Plugin_BSPSceneManager
+15:58:00: Uninstalling plugin: ParticleFX
+15:58:00: Plugin successfully uninstalled
+15:58:00: Unloading library .\Plugin_ParticleFX
+15:58:00: Uninstalling plugin: GL RenderSystem
+15:58:00: *** Stopping Win32GL Subsystem ***
+15:58:00: Plugin successfully uninstalled
+15:58:00: Unloading library .\RenderSystem_GL
+15:58:00: Uninstalling plugin: D3D9 RenderSystem
+15:58:00: Render Target 'Alone - FourThought' Average FPS: 24.0555 Best FPS: 60.6965 Worst FPS: 7.91625e-006
+15:58:00: D3D9 : Shutting down cleanly.
+15:58:00: Unregistering ResourceManager for type Texture
+15:58:00: Unregistering ResourceManager for type GpuProgram
+15:58:00: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+15:58:00: Plugin successfully uninstalled
+15:58:00: Unloading library .\RenderSystem_Direct3D9
+15:58:00: Unregistering ResourceManager for type Material
