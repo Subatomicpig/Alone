@@ -1,6 +1,6 @@
 
 
-![alt tag] (http://www.ryanwright.ca/assets/images/projects/Alone/Alone_01.jpg)
+![alt tag](http://www.ryanwright.ca/assets/images/projects/Alone/Alone_01.jpg)
 
 # Alone
 
